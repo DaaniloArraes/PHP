@@ -1,0 +1,11 @@
+{
+    "name": "danil/crud-mongo",
+    "autoload": {
+        "psr-4": {
+            "Danil\\CrudMongo\\": "src/"
+        }
+    },
+    "require": {
+        "mongodb/mongodb": "^1.20"
+    }
+}

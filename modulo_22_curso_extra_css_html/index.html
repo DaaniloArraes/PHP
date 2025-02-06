@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tela de Contato</title>
+</head>
+<body>
+    <div id="main-container">
+        <div id="address-container">
+            <div class="fade"></div>
+            <div id="address-content">
+                <h2><ion-icon name="navigate-outline"></ion-icon> Endereço</h2>
+                <p>Rua Sebastião G. de Almeida, 29</p>
+                <h2><ion-icon name="call-outline"></ion-icon>Telefone</h2>
+                <p>11 95237-7610</p>
+                <h2><ion-icon name="mail-outline"></ion-icon>E-mail</h2>
+                <p>danilo.arfe@hotmail.com</p>
+            </div>
+        </div>
+        <div id="form-container">
+            <h2>Entre em Contato</h2>
+            <form action="" id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required placeholder="Digite seu Nome">
+                <label for="email">E-mail:</label>
+                <input type="text" id="email" name="email" required placeholder="Digite seu e-mail">
+                <label for="phone">Telefone:</label>
+                <input type="text" id="phone" name="phone" required placeholder="Digite seu telefone">
+                <label for="msg">Sua Mensagem:</label>
+                <textarea name="msg" placeholder="Como pode-mos te ajudar?"  id="msg"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+</body>
+</html>
